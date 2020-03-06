@@ -1,0 +1,84 @@
+.app-container {
+  text-align: center;
+  background: skyblue;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 3rem;
+  width: 30%;
+  height: 5vh;
+  font-size: 1rem;
+}
+
+button {
+  height: 5vh;
+  margin-left: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 3rem 0;
+  font-family: sans-serif;
+}
+
+img {
+  width: 25%;
+  margin-bottom: 1.5rem;
+}
+.usercards img {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.usercards {
+  padding: 3rem;
+  border: 1px solid white;
+  width: 40%;
+  margin-bottom: 4rem;
+  background: black;
+  border-radius: 30px;
+  color: skyblue;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-style: italic;
+  font-size: 1.7rem;
+}
+p {
+  font-weight: bold;
+}
+
+.maincard {
+  padding: 3rem;
+  border: 1px solid white;
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  background: white;
+  border-radius: 30px;
+  color: black;
+}
+.maincard img {
+  border-radius: 50%;
+  width: 50%;
+}
+#chart {
+  width: 100%;
+  border-radius: 0;
+}
